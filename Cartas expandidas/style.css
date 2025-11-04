@@ -8,6 +8,7 @@
 body {
     font-family: 'Muli', sans-serif;
     display: flex;
+    flex-direction: column; /* Para que permita agregar mas contenido a la pagina sin que la informacion se coloque a un costado de las cards  */
     align-items: center;
     justify-content: center;
     height: 100vh;
